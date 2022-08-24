@@ -51,7 +51,7 @@ const iaos: IaoConfig[] = [
     vesting: true,
     expires: 1651539600,
   },
-  {
+  /* {
     id: 'stz',
     address: '0xa526477bBf22643bE96D02Ebf3934BA1721059f3',
     isActive: false,
@@ -270,7 +270,7 @@ const iaos: IaoConfig[] = [
     tokenDecimals: 8,
     releaseBlockNumber: 5685490,
     burnedTxUrl: 'https://bscscan.com/tx/0xbcfe28f2552d53f3cb49f37d6001aa7708070d3d17f75652c5096b7ecb4ce8fa',
-  },
+  }, */
 
   /* 
   
@@ -324,7 +324,7 @@ const iaos: IaoConfig[] = [
     vesting: true,
     expires: 1651539600,
   },
-  {
+  /* {
     id: 'stz',
     address: '0x0B3A1f44c51eE2B540F60E48E8E802fDe2473455',
     isActive: false,
@@ -500,7 +500,7 @@ const iaos: IaoConfig[] = [
     currencyAddress: '0xdDb3Bd8645775F59496c821E4F55A7eA6A6dc299',
     tokenDecimals: 18,
     releaseBlockNumber: 6565331,
-  },
+  }, */
 ]
 
 export default iaos

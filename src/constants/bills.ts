@@ -6,10 +6,12 @@ const bills: BillsConfig[] = [
   {
     index: 13,
     contractAddress: {
-      [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
+      /* [ChainId.BSC]: '0xE325439439D692DC858Ba887601999D57d35688F',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.banana,
@@ -17,10 +19,12 @@ const bills: BillsConfig[] = [
     lpToken: tokens.bananaBnb,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      /* [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -28,10 +32,12 @@ const bills: BillsConfig[] = [
   {
     index: 14,
     contractAddress: {
-      [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
+      /* [ChainId.BSC]: '0xf297F71f4664cF7F1Cd5d90720967998A1163cC3',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.busd,
@@ -39,10 +45,12 @@ const bills: BillsConfig[] = [
     lpToken: tokens.bnbBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      /* [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -50,10 +58,12 @@ const bills: BillsConfig[] = [
   {
     index: 15,
     contractAddress: {
-      [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
+      /* [ChainId.BSC]: '0x937A30Fd88f48B23DeABf4fD43c42cc9d3f3F9Dd',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.busd,
@@ -61,10 +71,12 @@ const bills: BillsConfig[] = [
     lpToken: tokens.usdcBusd,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      /* [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
@@ -72,10 +84,12 @@ const bills: BillsConfig[] = [
   {
     index: 16,
     contractAddress: {
-      [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
+      /* [ChainId.BSC]: '0x2D375a67366eDFB92F520aE428E8E08451D638d2',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     billType: 'BANANA Bill',
     token: tokens.eth,
@@ -83,15 +97,17 @@ const bills: BillsConfig[] = [
     lpToken: tokens.bnbEth,
     earnToken: tokens.banana,
     billNnftAddress: {
-      [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
+      /* [ChainId.BSC]: '0x7FD203888661d1F0AE625eD599909f8F97698670',
       [ChainId.MATIC]: '',
       [ChainId.MAINNET]: '',
-      [ChainId.BSC_TESTNET]: '',
+      [ChainId.BSC_TESTNET]: '', */
+      [ChainId.DOGECHAIN]: '',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
   },
-  {
+  /* {
     index: 17,
     contractAddress: {
       [ChainId.BSC]: '0x44921f493887ab8a8b9db54db335f65c1ef8d51a',
@@ -448,7 +464,7 @@ const bills: BillsConfig[] = [
     inactive: true,
     projectLink: 'https://apeswap.finance/',
     twitter: 'https://twitter.com/ape_swap',
-  },
+  }, */
 ]
 
 export default bills

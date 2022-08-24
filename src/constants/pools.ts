@@ -11,23 +11,25 @@ const pools: PoolConfig[] = [
   {
     sousId: 0,
     tokenName: tokens.banana.symbol,
-    image: 'BANANA.svg',
+    image: 'CHEEMS.svg',
     stakingToken: tokens.banana,
     rewardToken: tokens.banana,
     contractAddress: {
-      [ChainId.BSC_TESTNET]: '0xbbC5e1cD3BA8ED639b00927115e5f0e0040aA613', // MasterApe
-      [ChainId.BSC]: '0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9',
+      // [ChainId.BSC_TESTNET]: '0xbbC5e1cD3BA8ED639b00927115e5f0e0040aA613', // MasterApe
+      // [ChainId.BSC]: '0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9',
+      [ChainId.DOGECHAIN]: '0x7d686b37CdCa9dE7c3CB75601E028383675153d2',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
     poolCategory: PoolCategory.CORE,
-    projectLink: 'https://apeswap.finance/',
-    twitter: 'https://twitter.com/ape_swap',
+    projectLink: 'https://cheemswap.dog/',
+    twitter: 'https://twitter.com/cheemsswapdoge',
     harvest: true,
     tokenPerBlock: `${BANANA_PER_BLOCK.toNumber() * 0.25}`,
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
   },
-  {
+  /* {
     sousId: 21,
     tokenName: 'BANANA',
     image: 'BANANA.svg',
@@ -2803,7 +2805,7 @@ const pools: PoolConfig[] = [
     isFinished: true,
     tokenDecimals: 18,
     forAdmins: true,
-  },
+  }, */
 ]
 
 export default pools

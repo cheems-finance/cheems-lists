@@ -7,21 +7,25 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    lpSymbol: 'BANANA',
+    lpSymbol: 'CHEEMS',
     image: '',
     lpAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a', // Banana token
-      [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      // [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a', // Banana token
+      // [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      [ChainId.DOGECHAIN]: '0x7d686b37CdCa9dE7c3CB75601E028383675153d2',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
-    tokenSymbol: 'BANANA-SPLIT',
+    tokenSymbol: 'CHEEMS-SPLIT',
     tokenAddresses: {
-      [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a', // Banana Token
-      [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      // [ChainId.BSC_TESTNET]: '0x4Fb99590cA95fc3255D9fA66a1cA46c43C34b09a', // Banana Token
+      // [ChainId.BSC]: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95',
+      [ChainId.DOGECHAIN]: '0x7d686b37CdCa9dE7c3CB75601E028383675153d2',
+      [ChainId.DOGECHAIN_TESTNET]: '',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: tokens.wbnb.address,
+    quoteTokenSymbol: QuoteToken.WDOGE,
+    quoteTokenAdresses: tokens.wwdoge.address,
   },
-  {
+  /* {
     pid: 1,
     image: '',
     lpSymbol: 'BANANA-BNB',
@@ -3280,7 +3284,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: tokens.busd.address,
     projectLink: 'https://piston-token.com/swap',
-  },
+  }, */
 ]
 
 export default farms

@@ -1,27 +1,35 @@
 import { ChainId } from '@cheemsfinance/sdk'
 
 export interface Address {
-  [ChainId.BSC]: string
+  /* [ChainId.BSC]: string
   [ChainId.MATIC]: string
   [ChainId.MAINNET]: string
-  [ChainId.BSC_TESTNET]: string
+  [ChainId.BSC_TESTNET]: string */
+  [ChainId.DOGECHAIN]: string
+  [ChainId.DOGECHAIN_TESTNET]: string
 }
 
 // Since farms and pools are only on BSC and TESTNET we dont need other chains
 export interface FarmsAndPoolAddress {
-  [ChainId.BSC]: string
-  [ChainId.BSC_TESTNET]: string
+  // [ChainId.BSC]: string
+  // [ChainId.BSC_TESTNET]: string
+  [ChainId.DOGECHAIN]: string
+  [ChainId.DOGECHAIN_TESTNET]: string
 }
 
 // Since vaults are only on BSC and TESTNET we dont need other chains
 export interface ChainToNumber {
-  [ChainId.BSC]: number
-  [ChainId.BSC_TESTNET]: number | null
+  // [ChainId.BSC]: number
+  // [ChainId.BSC_TESTNET]: number | null
+  [ChainId.DOGECHAIN]: number
+  [ChainId.DOGECHAIN_TESTNET]: number | null
 }
 
 export interface ChainToString {
-  [ChainId.BSC]: string
-  [ChainId.BSC_TESTNET]: string
+  // [ChainId.BSC]: string
+  // [ChainId.BSC_TESTNET]: string
+  [ChainId.DOGECHAIN]: string
+  [ChainId.DOGECHAIN_TESTNET]: string
 }
 
 export enum QuoteToken {
@@ -29,9 +37,11 @@ export enum QuoteToken {
   'BANANA' = 'BANANA',
   'BUSD' = 'BUSD',
   'TWT' = 'TWT',
-  'UST' = 'UST',
+  'USDC' = 'USDC',
   'ETH' = 'ETH',
   'USDT' = 'USDT',
+  'CHEEMS' = 'CHEEMS',
+  'WDOGE' = 'WDOGE',
 }
 
 export enum PoolCategory {
@@ -39,6 +49,7 @@ export enum PoolCategory {
   'APEZONE' = 'ApeZone',
   'CORE' = 'Core',
   'JUNGLE' = 'Jungle',
+  'KENNEL' = 'Kennel',
 }
 
 export interface FarmStyles {

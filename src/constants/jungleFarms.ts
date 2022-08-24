@@ -5,7 +5,7 @@ import { ChainId } from '@cheemsfinance/sdk'
 // Please remove test addresses that aren't used for that pair
 
 const jungleFarms: JungleFarmConfig[] = [
-  {
+  /* {
     jungleId: 8,
     tokenName: 'PXP-BNB',
     image: 'PXP.png',
@@ -300,7 +300,7 @@ const jungleFarms: JungleFarmConfig[] = [
     lpStaking: true,
     isEarnTokenLp: false,
     network: ChainId.BSC,
-  },
+  }, */
 ]
 
 export default jungleFarms

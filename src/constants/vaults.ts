@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { VaultConfig } from './types'
 
 const vaults: VaultConfig[] = [
-  {
+  /* {
     id: 0,
     pid: 22,
     availableChains: [ChainId.BSC],
@@ -16,7 +16,7 @@ const vaults: VaultConfig[] = [
     stakeToken: tokens.banana,
     token: tokens.banana,
     rewardToken: tokens.banana,
-    platform: 'ApeSwap',
+    platform: 'Cheemswap',
     masterchef: {
       pid: {
         [ChainId.BSC]: 0,
@@ -33,8 +33,8 @@ const vaults: VaultConfig[] = [
       rewardToken: tokens.banana,
     },
     fee: '0.1',
-  },
-  {
+  }, */
+  /* {
     id: 1,
     pid: 1,
     availableChains: [ChainId.BSC],
@@ -782,7 +782,7 @@ const vaults: VaultConfig[] = [
 
   // TESTNET VAULTS
 
-  {
+  /* {
     id: 1000,
     pid: 0,
     availableChains: [ChainId.BSC_TESTNET],
@@ -844,7 +844,7 @@ const vaults: VaultConfig[] = [
       },
       rewardToken: tokens.banana,
     },
-  },
+  }, */
 ]
 
 export default vaults

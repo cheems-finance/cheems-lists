@@ -3,7 +3,7 @@ import tokens from './tokens'
 import { DualFarmConfig } from './types'
 
 const dualFarms: DualFarmConfig[] = [
-  {
+  /* {
     pid: 0,
     network: ChainId.MATIC,
     stakeTokenAddress: '0x034293F21F1cCE5908BC605CE5850dF2b1059aC0',
@@ -191,7 +191,7 @@ const dualFarms: DualFarmConfig[] = [
       token0: tokens.banana,
       token1: tokens.kom,
     },
-  },
+  }, */
 ]
 
 export default dualFarms

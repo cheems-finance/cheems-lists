@@ -2,7 +2,7 @@ import tokens from './tokens'
 import { NfaStakingPoolConfig } from './types'
 
 const nftStakingPools: NfaStakingPoolConfig[] = [
-  {
+  /* {
     sousId: 1,
     tier: 1,
     rewardToken: tokens.banana,
@@ -61,6 +61,6 @@ const nftStakingPools: NfaStakingPoolConfig[] = [
     tokenPerBlock: '0.011774074074074',
     isFinished: false,
     endBlock: 18443242,
-  },
+  }, */
 ]
 export default nftStakingPools

@@ -16,7 +16,7 @@
     "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\""
   },
   "dependencies": {
-    "@cheemsfinance/sdk": "^0.1.0",
+    "@cheemsfinance/sdk": "^0.1.1",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.6.9",
     "path": "^0.12.7",
